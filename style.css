@@ -1,0 +1,72 @@
+/* Estilos globais */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+header {
+  background-color: #1E90FF;
+  padding: 10px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #1E90FF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #EEE;
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+
+
+/* Estilos específicos para a página */
+.build-title {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.build-list {
+  background-color: #F8F8F8;
+  padding: 20px;
+  border: 1px solid #DDD;
+  border-radius: 5px;
+}
